@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+
+font-family: Arial, sans-serif; 
+background-color: #d1cbcb;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+/* Profile Card */
+.profile-card {
+background: white;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); text-align: center;
+width: 300px;
+}
+
+.profile-wrapper {
+    background-color: #f3eeee;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.profile-img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid #000408;
+margin-bottom: 10px;
+}
+
+h2 {
+margin: 10px 0; color: #333;
+}
+P{
+color: #777;
+margin: 5px 0;
+}
+
+/* Social Icons */ 
+.social-icons {
+margin-top: 15px;
+}
+
+.social-icons a img {
+width: 30px;
+margin: 0 5px;
+transition: transform 0.3s;
+}
+
+.social-icons a img:hover { transform: scale(1.2);
+}
+
+/* Button Styling */ .btn {
+display: inline-block; margin-top: 15px; padding: 10px 15px; background-color: #007bff; color: white;
+text-decoration: none; border-radius: 5px;
+}
+
+.btn:hover {
+
+background-color: #0056b3;
+}
+
+/* About Page Styling */
+.about-container {
+background: white;
+padding: 20px;
+border-radius: 25px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+text-align: center;
+width: 400px;
+}
+
+.about-container h1 {
+color: #333;
+}
+
+.about-container p {
+color: #555;
+text-align: justify;
+}
+
+.about-wrapper {
+    background-color: #f3eeee;
+    padding: 25px;
+    border-radius: 25px;
+}
